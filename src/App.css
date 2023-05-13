@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.collab{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-block: 3em;
+    padding-inline: 3em;
+}
+
+.collab h4{
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1200px){
+   
+    .collab{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
